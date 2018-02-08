@@ -10,5 +10,5 @@ exports.view = function(req, res){
 	console.log(data);
 	//res.render('index');
 	//render inserts variables into the HTML template
-	res.render('index','data')
+	res.render('index', data)
 };
